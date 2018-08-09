@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_padding_default">10dp</dimen>
+    <dimen name="card_margin">12dp</dimen>
+    <dimen name="card_padding">6dp</dimen>
+    <dimen name="card_depth">2dp</dimen>
+</resources>
