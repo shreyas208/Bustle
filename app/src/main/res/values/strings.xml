@@ -2,5 +2,7 @@
     <string name="app_name">Bustle</string>
     <string name="search">Search</string>
     <string name="search_for_stop">Search for a stop…</string>
+    <string name="settings">Settings</string>
     <string name="an_error_occured">An error occurred. Please try again.</string>
+    <string name="location_required_for_nearby">An error occurred. Please try again.</string>
 </resources>

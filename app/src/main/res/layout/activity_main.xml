@@ -6,18 +6,12 @@
     android:background="#eee"
     android:orientation="vertical">
 
-    <Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"/>
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/Card">
 
-        <AutoCompleteTextView
+        <EditText
             android:id="@+id/searchField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,8 +31,9 @@
         style="@style/Card" />
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/nearbyRecycler"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_height="wrap_content"
+        style="@style/Card"/>
 
 </LinearLayout>
